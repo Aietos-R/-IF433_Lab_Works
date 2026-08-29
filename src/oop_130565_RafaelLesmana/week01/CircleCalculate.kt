@@ -1,0 +1,19 @@
+package oop_130565_RafaelLesmana.week01
+
+fun main(args : Array<String>) {
+    val radius = 7.0
+    val pi = 3.14
+
+    var area = pi * radius * radius
+
+    println("Radius: $radius, Area: $area")
+    checkSize(area)
+}
+
+fun checkSize(area){
+    if (area > 100){
+        println("This is a big Circle")
+    }else {
+        println("This is a Small Circle")
+    }
+}

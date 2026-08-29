@@ -4,7 +4,7 @@ fun main() {
     val name = "Rafael"
     val score = 80
 
-    println("Nama : $name, Nilai : $score")
+    println("Nama : $name, Nilai: $score")
 
     val grade = when (score) {
         in 90..100 -> "A"
