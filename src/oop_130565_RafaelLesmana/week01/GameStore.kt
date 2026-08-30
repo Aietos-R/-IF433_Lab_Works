@@ -4,7 +4,8 @@ fun main() {
     val gameTitle = "Resident Evil Requiem"
     val price = 900000.0
 
-    calculateDiscount(price)
+    val finalPrice = calculateDiscount(price)
+    printReceipt(gameTitle, price, finalPrice)
 }
 
 fun calculateDiscount(price: Double) : Double {
@@ -13,4 +14,8 @@ fun calculateDiscount(price: Double) : Double {
     }else {
         return price - (price * 0.1)
     }
+}
+
+fun printReceipt(gameTitle: String, price: Double, finalPrice: Double) {
+    println("Judul game : $gameTitle,\nHarga asli : $price,\nHarga Sesudah : $finalPrice")
 }
