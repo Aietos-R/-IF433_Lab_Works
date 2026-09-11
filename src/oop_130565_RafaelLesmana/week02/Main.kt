@@ -3,10 +3,12 @@ package oop_130565_RafaelLesmana.week02
 import java.util.Scanner
 
 fun main(){
-    val scanner = Scanner(System.'in')
+    val scanner = Scanner(System.`in`)
     println(" --- Aplikasi PMB UMN --- ")
+
     println("Masukkan Nama : ")
     val name = scanner.nextline()
+
     println("Masukkan NIM (Wajib5 Karakter) : ")
     val nim = scanner.next()
 
