@@ -2,8 +2,8 @@ package oop_130565_RafaelLesmana.week02.mini_rpg
 
 class Hero (
     val name: String,
-    var hp: Int = 100,
-    val baseDamage: Int
+    val baseDamage: Int,
+    var hp: Int = 100
 ) {
     fun attack(targetName: String) {
         println("$name menyerang $targetName dengan damage $baseDamage")
