@@ -6,7 +6,6 @@ class Employee (
     var salary: Int = 0
         set(value) {
             if (value < 0) {
-                println("Error : Gaji tidak boleh negatif ! di-set ke 0")
                 field = 0
             } else {
                 field = value
