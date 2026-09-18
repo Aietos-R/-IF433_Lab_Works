@@ -9,4 +9,12 @@ fun main() {
     weapon.damage = 9999
     println("Damage : ${weapon.damage}")
     println("Tier senjata: ${weapon.tier}")
+
+    val player = Player("player")
+
+    player.addXp(50)
+    println("Level saat ini: ${player.level}")
+
+    player.addXp(60)
+    println("Level saat ini: ${player.level}")
 }
