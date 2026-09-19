@@ -9,14 +9,4 @@ fun Main () {
 }
 
 
-package oop_130565_RafaelLesmana.week04.TM2_DryPrinciple
 
-class Developer(
-    name: String,
-    calculateBonus: Int,
-    val progammingLanguage: String
-): Employee(name, calculateBonus) {
-    override fun work() {
-        println("$name sedang ngoding menggunakan $progammingLanguage")
-    }
-}
