@@ -14,5 +14,7 @@ fun main() {
 
     println("\n --- Tugas Mandiri 1 ---")
     val myCar = ElectricCar("BYD", 4, 70)
+    myCar.honk()
+    myCar.openTrunk()
     myCar.accelerate()
 }
