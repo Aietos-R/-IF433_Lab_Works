@@ -1,4 +1,4 @@
-package Week06
+package oop_130565_RafaelLesmana.Week06
 
 interface Clickable {
     val name: String
