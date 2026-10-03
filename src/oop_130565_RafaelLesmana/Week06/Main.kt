@@ -18,4 +18,7 @@ fun main() {
     println("\n=== Testing Checkout ===")
     processCheckout(pay1, 100000.0)
     processCheckout(pay2, 150000.0)
+
+    val button = Button("Submit")
+    button.click()
 }
